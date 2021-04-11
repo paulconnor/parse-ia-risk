@@ -16,10 +16,10 @@ echo ""
 
 echo "Uploading processed data to MySQL"
 
-DB_USER='pccu'
-export MYSQL_PWD='SYMCdemo123!'
-DB_NAME='pccu'
-DB_HOST='mysql.iamdemo.broadcom.com'
+DB_USER='db'
+export MYSQL_PWD='password'
+DB_NAME='db'
+DB_HOST='host'
 
 #    TRUNCATE TABLE evaluateRiskResponse;
 #mysql -h $DB_HOST --user=$DB_USER --password=$DB_PASSWD $DB_NAME << EOF
